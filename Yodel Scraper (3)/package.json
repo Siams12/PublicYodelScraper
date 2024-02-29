@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "scripts": {
+    "start": "node ./myScraper.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "chrono-node": "^2.7.0",
+    "crawlee": "^3.5.4",
+    "joi": "^17.11.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "scraper-core": "file:./scraper-core",
+    "playwright": "^1.33.0",
+    "playwright-chromium": "^1.33.0"
+  },
+  "files": [
+    "./scraper-core"
+  ]
+}
